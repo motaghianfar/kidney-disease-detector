@@ -177,7 +177,10 @@ def main():
     - Sodium: 135-145 mEq/L
     - Potassium: 3.5-5.0 mEq/L
     """)
-    
+    # === ADD THIS RIGHT AFTER THE ABOVE INFO SECTION ===
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### 🧑‍💻 Created by:")
+    st.sidebar.markdown("**Mohammad Motaghianfar**")
     # Prepare input data
     input_data = {
         'age': age, 'bp': bp, 'sg': sg, 'al': al, 'su': su, 'rbc': rbc, 'pc': pc, 'pcc': pcc,
@@ -350,3 +353,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
